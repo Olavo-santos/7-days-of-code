@@ -1,0 +1,141 @@
+.informacoes {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 85%;
+    margin: 0 auto;
+    gap: 32px;
+    height: 50vh;
+    font-family: "Inter", sans-serif;
+}
+
+.informacoes__numeros {
+   margin: 1em 0px 1px 0px; 
+   margin-top: 107px;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 60px;
+   line-height: 72px;
+   letter-spacing: -0.02em;
+   color: #8E2424;
+}
+
+.subtitulo__info {
+    margin: 0px 0px 8px 0px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+   color: #101828;
+}
+
+.info__item {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #667085;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto 100px auto;
+    font-family: "Inter", sans-serif;
+}
+
+.vagas__abertas {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   color: #8E2424;
+   width: 125px;
+   height: 28px;
+   background: rgba(142, 36, 36, 0.05);
+   border-radius: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 4px 12px; 
+   margin-left: 550px;
+}
+
+.vagas__titulo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #101828;
+  margin: 20px;
+}
+
+.vagas__texto {
+   font-family: 'Inter'; 
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #667085;
+   margin-bottom: 64px;
+}
+
+.img__vagas {
+    margin-top: 64px;
+}
+
+.vagas__lista {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.lista__titulo {
+   font-size: 20px;
+   color: var(--preto);
+   margin-bottom: 32px;
+   text-align: left;
+   margin: 1em;
+}
+
+
+.lista__titulo {
+   font-size: 20px;
+   font-weight: 700;
+   color: black;
+   margin-bottom: 32px;
+   margin-top: 64px;
+}
+
+.div__conteudo-vaga {
+   display: flex;
+   margin: 32px 0 0 0;
+}
+
+.lista__jornada {
+   margin-right: 25px;
+}
+
+.lista__subtitulo {
+  text-align: left;
+  margin: 1em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  border: #EAECF0;
+  margin-left: 0px;
+}
+
+.vaga__aberta {
+   padding: 24px 24px 28px 24px;
+   margin-bottom: 24px;
+   border: 1px solid #EAECF0;
+   border-radius: 16px;
+}
+

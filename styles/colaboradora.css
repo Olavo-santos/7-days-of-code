@@ -1,0 +1,55 @@
+.colaboradores {
+    text-align: center;
+    font-family: 'Inter';
+    padding: 64px;
+    padding-bottom: 10px;
+    gap: 32px;
+    height: 404px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 5em;
+}
+.colaboradores__titulo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #8E2424;
+  margin: 16px;
+}
+
+.colaboradores__texto {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+
+.imagem__colaboca {
+    margin-top: 32px;
+}
+
+.nome__colaboradora {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #101828;
+}
+
+.trabalho__colaboradora {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #667085;
+}
